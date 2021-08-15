@@ -2,15 +2,20 @@ PODS:
   - HalfModalViewController (1.0.0)
 
 DEPENDENCIES:
-  - HalfModalViewController (from `../`)
+  - HalfModalViewController (from `https://github.com/lamnguynn/HalfModalViewController.git`)
 
 EXTERNAL SOURCES:
   HalfModalViewController:
-    :path: "../"
+    :git: https://github.com/lamnguynn/HalfModalViewController.git
+
+CHECKOUT OPTIONS:
+  HalfModalViewController:
+    :commit: a15e6528bfd6381b781549724332fb2b348952eb
+    :git: https://github.com/lamnguynn/HalfModalViewController.git
 
 SPEC CHECKSUMS:
   HalfModalViewController: 195006e055e7339017a5a84e35c36b5734af2f78
 
-PODFILE CHECKSUM: c394794aa535c675750e2dab14efeb6dfa3b02ae
+PODFILE CHECKSUM: 8404a35562def490657ff1231173365e72af3efa
 
 COCOAPODS: 1.10.1

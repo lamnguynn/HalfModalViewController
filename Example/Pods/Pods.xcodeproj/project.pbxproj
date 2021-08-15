@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		36AB358A43A0E1BCB47A7B36171E4699 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
 		3BE0F5478BB29180AF6D01B3AECE7343 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58EDC0BFBCAEB4BE38B6F6E8F4D0B8F7 /* HalfModalViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EECDC61DB83D7197F58296018D27B2 /* HalfModalViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		905D26745E9ACF3E75521332F1A0B093 /* HalfModalViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CC6FBB8C580D6228D567AD302F4C37 /* HalfModalViewController-dummy.m */; };
+		58EDC0BFBCAEB4BE38B6F6E8F4D0B8F7 /* HalfModalViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3851166F9DEC610D9C5C4711A676CE74 /* HalfModalViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		905D26745E9ACF3E75521332F1A0B093 /* HalfModalViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E06009F11FC6713F8B33C404792F85E /* HalfModalViewController-dummy.m */; };
 		AB249BBCDF525BA318AE1D5393F7E882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BB6FD25F55852707D0E0D2F656026E85 /* HalfModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997E6869A64C1F472A4842878362AD19 /* HalfModalVC.swift */; };
-		C88168262B4CBD6C76B931C922E63DA3 /* HalfModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95717B31575AE7ABFB0C9C56F101F512 /* HalfModalViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6FD25F55852707D0E0D2F656026E85 /* HalfModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E476D9D4476F781B7C4DA39C650A848 /* HalfModalVC.swift */; };
+		C88168262B4CBD6C76B931C922E63DA3 /* HalfModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EB0770C520036BE65A4A9FB69803A8 /* HalfModalViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E543C03EF7FEC5ACF7DCA641D2F43283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3DE64334BAAB1A11D7CB192559E4A967 /* PBXContainerItemProxy */ = {
+		EC45AD81D1049C3913E83CCC1E931F92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,31 +28,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E06009F11FC6713F8B33C404792F85E /* HalfModalViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HalfModalViewController-dummy.m"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		2E476D9D4476F781B7C4DA39C650A848 /* HalfModalVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HalfModalVC.swift; path = HalfModalViewController/HalfModalVC.swift; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		31EECDC61DB83D7197F58296018D27B2 /* HalfModalViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HalfModalViewController-umbrella.h"; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		3851166F9DEC610D9C5C4711A676CE74 /* HalfModalViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HalfModalViewController-umbrella.h"; sourceTree = "<group>"; };
+		423C3AF6850249AD364A2F1FA5ECA55E /* HalfModalViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HalfModalViewController.debug.xcconfig; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4B4E1439A6D927182F8C0F074111A513 /* HalfModalViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HalfModalViewController.modulemap; sourceTree = "<group>"; };
-		50289872499FECF319B9AB6FF7B37E51 /* HalfModalViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HalfModalViewController.debug.xcconfig; sourceTree = "<group>"; };
-		7252A83060D89429FA3E2041408C1452 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48492FAD118B36183E0350338F6A49CB /* HalfModalViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HalfModalViewController-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		84DA70BA118956753AAE8E4F9E46933D /* HalfModalViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HalfModalViewController-prefix.pch"; sourceTree = "<group>"; };
-		95717B31575AE7ABFB0C9C56F101F512 /* HalfModalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HalfModalViewController.h; path = HalfModalViewController/HalfModalViewController.h; sourceTree = "<group>"; };
-		997E6869A64C1F472A4842878362AD19 /* HalfModalVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HalfModalVC.swift; path = HalfModalViewController/HalfModalVC.swift; sourceTree = "<group>"; };
-		9C4D92FBABE7CF21291CE4FA07365810 /* HalfModalViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HalfModalViewController.release.xcconfig; sourceTree = "<group>"; };
+		9210163B3160BAF0CBE299B81BF6A256 /* HalfModalViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HalfModalViewController-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB9CADC1AB9B0BEC1A77DD980D21DD3A /* HalfModalViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HalfModalViewController-Info.plist"; sourceTree = "<group>"; };
-		BCB373D0F59B06C599CE7E1D3D97194A /* HalfModalViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HalfModalViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE1FBB85F1CF6BDE4EE06ED6B5DB03C2 /* HalfModalViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HalfModalViewController.release.xcconfig; sourceTree = "<group>"; };
 		D56A1A8EA36CB04AB2730F6F44C27817 /* HalfModalViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HalfModalViewController.framework; path = HalfModalViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		E6CC6FBB8C580D6228D567AD302F4C37 /* HalfModalViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HalfModalViewController-dummy.m"; sourceTree = "<group>"; };
+		DEED200520458DF9DCAC6436A498897F /* HalfModalViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HalfModalViewController.modulemap; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EA645D113A647F06FE21BDE9DDEAECA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F7EB0770C520036BE65A4A9FB69803A8 /* HalfModalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HalfModalViewController.h; path = HalfModalViewController/HalfModalViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,14 +72,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E2A9ACE80474CBF39E07314AE6DDA21 /* Pod */ = {
+		1DF3F11E51B6EFE66B7B98737385F1FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BCB373D0F59B06C599CE7E1D3D97194A /* HalfModalViewController.podspec */,
-				EA645D113A647F06FE21BDE9DDEAECA4 /* LICENSE */,
-				7252A83060D89429FA3E2041408C1452 /* README.md */,
+				453DA1A793AC4D69052BC3658D86F7CD /* HalfModalViewController */,
 			);
-			name = Pod;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		453DA1A793AC4D69052BC3658D86F7CD /* HalfModalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E476D9D4476F781B7C4DA39C650A848 /* HalfModalVC.swift */,
+				F7EB0770C520036BE65A4A9FB69803A8 /* HalfModalViewController.h */,
+				77C7EFAFA2C9BEC7349FFE119163B285 /* Support Files */,
+			);
+			name = HalfModalViewController;
+			path = HalfModalViewController;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -102,27 +108,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66AC63C940CDA43F7EE6D6EA666A491A /* Support Files */ = {
+		77C7EFAFA2C9BEC7349FFE119163B285 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B4E1439A6D927182F8C0F074111A513 /* HalfModalViewController.modulemap */,
-				E6CC6FBB8C580D6228D567AD302F4C37 /* HalfModalViewController-dummy.m */,
-				BB9CADC1AB9B0BEC1A77DD980D21DD3A /* HalfModalViewController-Info.plist */,
-				84DA70BA118956753AAE8E4F9E46933D /* HalfModalViewController-prefix.pch */,
-				31EECDC61DB83D7197F58296018D27B2 /* HalfModalViewController-umbrella.h */,
-				50289872499FECF319B9AB6FF7B37E51 /* HalfModalViewController.debug.xcconfig */,
-				9C4D92FBABE7CF21291CE4FA07365810 /* HalfModalViewController.release.xcconfig */,
+				DEED200520458DF9DCAC6436A498897F /* HalfModalViewController.modulemap */,
+				0E06009F11FC6713F8B33C404792F85E /* HalfModalViewController-dummy.m */,
+				9210163B3160BAF0CBE299B81BF6A256 /* HalfModalViewController-Info.plist */,
+				48492FAD118B36183E0350338F6A49CB /* HalfModalViewController-prefix.pch */,
+				3851166F9DEC610D9C5C4711A676CE74 /* HalfModalViewController-umbrella.h */,
+				423C3AF6850249AD364A2F1FA5ECA55E /* HalfModalViewController.debug.xcconfig */,
+				CE1FBB85F1CF6BDE4EE06ED6B5DB03C2 /* HalfModalViewController.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HalfModalViewController";
-			sourceTree = "<group>";
-		};
-		94D67B495FAA2CD168063E8C9637EEC4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CC17AD0668FCBF0E0B9C35E0C0E94602 /* HalfModalViewController */,
-			);
-			name = "Development Pods";
+			path = "../Target Support Files/HalfModalViewController";
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -142,18 +140,6 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		CC17AD0668FCBF0E0B9C35E0C0E94602 /* HalfModalViewController */ = {
-			isa = PBXGroup;
-			children = (
-				997E6869A64C1F472A4842878362AD19 /* HalfModalVC.swift */,
-				95717B31575AE7ABFB0C9C56F101F512 /* HalfModalViewController.h */,
-				4E2A9ACE80474CBF39E07314AE6DDA21 /* Pod */,
-				66AC63C940CDA43F7EE6D6EA666A491A /* Support Files */,
-			);
-			name = HalfModalViewController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,8 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				94D67B495FAA2CD168063E8C9637EEC4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1DF3F11E51B6EFE66B7B98737385F1FA /* Pods */,
 				5E896F8043F1719A65E2A2862C736370 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
@@ -216,7 +202,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BD340DDA3268904DB3BC26D29B8D6A3C /* PBXTargetDependency */,
+				93142BAD2B5BF9C0BA6775AC156B7C7E /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
@@ -307,11 +293,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BD340DDA3268904DB3BC26D29B8D6A3C /* PBXTargetDependency */ = {
+		93142BAD2B5BF9C0BA6775AC156B7C7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HalfModalViewController;
 			target = 96163A0FAD39F771B01830609900D40C /* HalfModalViewController */;
-			targetProxy = 3DE64334BAAB1A11D7CB192559E4A967 /* PBXContainerItemProxy */;
+			targetProxy = EC45AD81D1049C3913E83CCC1E931F92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -355,7 +341,7 @@
 		};
 		7300A2D6298E51778B7BEF401FF285AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C4D92FBABE7CF21291CE4FA07365810 /* HalfModalViewController.release.xcconfig */;
+			baseConfigurationReference = CE1FBB85F1CF6BDE4EE06ED6B5DB03C2 /* HalfModalViewController.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -429,7 +415,7 @@
 		};
 		AE5CBCD8ADE0C2658EE854C794B7B1F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50289872499FECF319B9AB6FF7B37E51 /* HalfModalViewController.debug.xcconfig */;
+			baseConfigurationReference = 423C3AF6850249AD364A2F1FA5ECA55E /* HalfModalViewController.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
