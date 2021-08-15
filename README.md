@@ -1,5 +1,6 @@
 # HalfModalViewController
 
+![Demo](demoHalfModal.gif)
 
 ## Installation
 
