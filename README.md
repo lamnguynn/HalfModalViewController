@@ -45,3 +45,6 @@ Additionally, it is extremely important that when you present the half modal vie
 * `defaultHeight`: Default height of the container. Default value is 350, but can be changed.
 * `dismissibleHeight`: Height at which the view will be dismissed when dragging. Default value is 200, but can be changed.
 * `maxmimumContainerHeight`: Maximum height that the container will go to when dragging up. Default value is the size of the screen minus thirty-three, but can be changed.
+
+## Lessons Learned
+* As a follow-up to my DropDownButton, I continued to familiarize myself with Git and creating Cocoapods.
