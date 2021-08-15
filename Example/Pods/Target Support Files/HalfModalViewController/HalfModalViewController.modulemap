@@ -1,0 +1,6 @@
+framework module HalfModalViewController {
+  umbrella header "HalfModalViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

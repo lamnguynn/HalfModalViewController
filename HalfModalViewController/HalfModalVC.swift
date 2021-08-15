@@ -7,7 +7,8 @@
 
 import UIKit
 
-class HalfPageModalViewController: UIViewController {
+///A customizable half modal view controller. 
+public final class HalfPageModalViewController: UIViewController {
     
     //--------------------------------
     //--------------------------------
@@ -18,7 +19,7 @@ class HalfPageModalViewController: UIViewController {
     /**
         The container view to add any assets onto.
      */
-    open lazy var containerView: UIView = {                                                 //Container view to store assets
+    public lazy var containerView: UIView = {                                                 //Container view to store assets
         let view = UIView()
         view.backgroundColor = .white
         view.layer.cornerRadius = 16
@@ -43,14 +44,14 @@ class HalfPageModalViewController: UIViewController {
          
          By default, the default height is 350, but can be changed.
     */
-    open var defaultHeight: CGFloat = 350
+    public var defaultHeight: CGFloat = 350
     
     /**
          Height at which the container and view can be dismissed.
          
          By default, the dismissble height is 200, but can be changed.
     */
-    open var dismissibleHeight: CGFloat = 200
+    public var dismissibleHeight: CGFloat = 200
     
     /**
          Maximum container height to show modally.
@@ -58,7 +59,7 @@ class HalfPageModalViewController: UIViewController {
          By default, the maximum container height is the size of the screen minus thirty-three, but can be changed.
      */
     ///Maximum container height to show modally
-    open var maxmimumContainerHeight: CGFloat = UIScreen.main.bounds.height - 33
+    public var maxmimumContainerHeight: CGFloat = UIScreen.main.bounds.height - 33
 
     private var currentContainerHeight: CGFloat = 350                                    //Current container height depending on gesture
     private var containerViewBottomConstraint: NSLayoutConstraint?                       //Bottom constraint for container
@@ -66,7 +67,7 @@ class HalfPageModalViewController: UIViewController {
     private let maxDimAlpha: CGFloat = 0.6                                               //Maximum alpha value for the dimmed view
     
     // MARK: view life cycle
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         /* Set up the views */
@@ -74,7 +75,7 @@ class HalfPageModalViewController: UIViewController {
         setupPanGesture()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    public override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
         animateDimmedView()
@@ -150,7 +151,7 @@ class HalfPageModalViewController: UIViewController {
         @animateDismissView
         Animates the hiding of the container and dimmed view
      */
-     open func animateDismissView(){
+     public func animateDismissView(){
         
         //End any editing
         self.containerView.endEditing(true)
