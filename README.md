@@ -1,5 +1,15 @@
 # HalfModalViewController
 
+
+## Installation
+
+### Cocoapods
+1. Add `pod 'HalfModalViewController', :git => "https://github.com/lamnguynn/HalfModalViewController.git"` to your *Podfile*. 
+2. Install the pod(s) by running `pod install`. If you are having issues on M1, then do `arch -x86_64 pod install`
+3. Add `import HalfModalViewController` in the .swift files where you want to use it
+
+Currrently this is the only way to add the framework to your project since my trunk push is not working (not because of uncreated profile).
+
 ## Basic Usage
 After installing, the framework works similar to any other UIViewController. The difference is that any asset added, whether it is a button, table, or label,  will need to be added to the `containerView` of the object. Below is an example:
 
