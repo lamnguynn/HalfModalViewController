@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HalfModalViewController"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A customizable half modal view controller for Swift"
   spec.description  = <<-DESC
                     A customizable half modal view controller that you can add buttons, labels, or tables to enhance the user experience and look of your app.
