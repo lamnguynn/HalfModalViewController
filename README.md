@@ -5,11 +5,11 @@
 ## Installation
 
 ### Cocoapods
-1. Add `pod 'HalfModalViewController', :git => "https://github.com/lamnguynn/HalfModalViewController.git"` to your *Podfile*. 
+1. Add `pod 'HalfModalViewController'` to your *Podfile*. 
 2. Install the pod(s) by running `pod install`. If you are having issues on M1, then do `arch -x86_64 pod install`
 3. Add `import HalfModalViewController` in the .swift files where you want to use it
 
-Currrently this is the only way to add the framework to your project since my trunk push is not working (not because of uncreated profile).
+If you have issues with using the HalfPageModalViewController class, please make sure you have the latest version as of the writing of this (1.0.1)
 
 ## Basic Usage
 After installing, the framework works similar to any other UIViewController. The difference is that any asset added, whether it is a button, table, or label,  will need to be added to the `containerView` of the object. Below is an example:
@@ -45,6 +45,10 @@ Additionally, it is extremely important that when you present the half modal vie
 * `defaultHeight`: Default height of the container. Default value is 350, but can be changed.
 * `dismissibleHeight`: Height at which the view will be dismissed when dragging. Default value is 200, but can be changed.
 * `maxmimumContainerHeight`: Maximum height that the container will go to when dragging up. Default value is the size of the screen minus thirty-three, but can be changed.
+
+## Updates
+- `08/22/2021` Updated Cocoapods so the HalfPageModalViewController class is public. Cocoapods should be fully operational.
+- `08/15/2021` Added source files and published Cocoapods
 
 ## Lessons Learned
 * As a follow-up to my DropDownButton, I continued to familiarize myself with Git and creating Cocoapods.
