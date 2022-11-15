@@ -41,6 +41,20 @@ override func viewDidLoad() {
 
 Additionally, it is extremely important that when you present the half modal view controller, you set `modalPresentationStyle` to `.overCurrentContext`. This will ensure that the view controller is presented correctly on screen. Additionally, there is no need for any animations when you call `self.present` as the view controller already has animations.
 
+## Adding things to HalfModalViewController
+To add things such as buttons or text fields to your modal view controller, there is a `containerView: UIView` property to add views to using the function `addSubview(...)`. Below is an example:
+
+```swift
+override func viewDidLoad() {
+	...
+	
+	let xmarkButton = UIButton()
+        halfViewController.containerView.addSubview(xmarkButton)
+	...
+}
+
+```
+
 ## Customization Properties
 * `defaultHeight`: Default height of the container. Default value is 350, but can be changed.
 * `dismissibleHeight`: Height at which the view will be dismissed when dragging. Default value is 200, but can be changed.
