@@ -8,7 +8,7 @@
 import UIKit
 
 ///A customizable half modal view controller. 
-public final class HalfPageModalViewController: UIViewController {
+open class HalfPageModalViewController: UIViewController {
     
     //--------------------------------
     //--------------------------------
@@ -67,7 +67,7 @@ public final class HalfPageModalViewController: UIViewController {
     private let maxDimAlpha: CGFloat = 0.6                                               //Maximum alpha value for the dimmed view
     
     // MARK: view life cycle
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         /* Set up the views */
@@ -75,7 +75,7 @@ public final class HalfPageModalViewController: UIViewController {
         setupPanGesture()
     }
     
-    public override func viewDidAppear(_ animated: Bool) {
+    open override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
         animateDimmedView()
