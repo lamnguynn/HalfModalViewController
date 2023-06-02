@@ -9,7 +9,7 @@
 2. Install the pod(s) by running `pod install`. If you are having issues on M1, then do `arch -x86_64 pod install`
 3. Add `import HalfModalViewController` in the .swift files where you want to use it
 
-If you have issues with using the HalfPageModalViewController class, please make sure you have the latest version as of the writing of this (1.0.1)
+If you have issues with using the HalfPageModalViewController class, please make sure you have the latest version as of the writing of this (1.0.2)
 
 ## Basic Usage
 After installing, the framework works similar to any other UIViewController. The difference is that any asset added, whether it is a button, table, or label,  will need to be added to the `containerView` of the object. Below is an example:
@@ -61,6 +61,7 @@ override func viewDidLoad() {
 * `maxmimumContainerHeight`: Maximum height that the container will go to when dragging up. Default value is the size of the screen minus thirty-three, but can be changed.
 
 ## Updates
+- `06/01/2023` Delivered changes to allow for inheritance.
 - `08/22/2021` Updated Cocoapods so the HalfPageModalViewController class is public. Cocoapods should be fully operational.
 - `08/15/2021` Added source files and published Cocoapods
 
